@@ -16,10 +16,10 @@ This script can be installed with the following command:
 
 ### `curl -sSL https://raw.githubusercontent.com/MsFloofie/ArchiSteamFarm-Installer/main/asf.sh | sudo bash`
 Hash of the file:
-- `MD5: e550d912dec3b9450ad0c7251be608d6`
-- `SHA1: 87fa3aaf2445f11e1da8cf814c26fcff075fce91`
-- `SHA256: 348f94cebda4143443962a2143fcf72c259085503b127d2dcfaac7d1113a4aae`
-- `SHA512: 2633edc84596cd4f470804e3c588d2989a75e203b8357101fb7395a39fccf53eed81ad34adbaa12d47aefcbd030ba8f56b19153ff80fdbb8d3e805eeb5186806`
+- `MD5: 3aa9739ba8136517c9f9183bce47cd87
+- `SHA1: d6b313aaf989f63447902c3a6b90a7a2fee59cf1
+- `SHA256: 9b62d7140052d636ea0966a6cdb0f4c8fd9bb0e9ebcbb043094565e33b16c6d6
+- `SHA512: 83ef51211665abb1dd8efa0ee9ec5e8af0e10542e2a3870ce0f28a140b452bfb91946fa215eb140df42f6f3fb95708d2c9071f7cb96683b3c53cf1f813bd6001
 
 ## Credit
 Huge *huge* thank you to [@JustArchi](https://github.com/JustArchi) and all the contributors at [JustArchi.net](https://github.com/JustArchiNET) for providing ArchiSteamFarm.  
