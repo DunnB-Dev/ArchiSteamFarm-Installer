@@ -1,0 +1,33 @@
+name: Update Checksum
+
+on:
+  push:
+    paths:
+      - 'asf.sh'
+
+jobs:
+  update-checksum:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Calculate Checksums
+        run: |
+          sha1=$(sha1sum asf.sh | awk '{print $1}')
+          sha256=$(sha256sum asf.sh | awk '{print $1}')
+          sha512=$(sha512sum asf.sh | awk '{print $1}')
+          md5=$(md5sum asf.sh | awk '{print $1}')
+          
+          sed -i "s/SHA1: .*/SHA1: $sha1/" README.md
+          sed -i "s/SHA256: .*/SHA256: $sha256/" README.md
+          sed -i "s/SHA512: .*/SHA512: $sha512/" README.md
+          sed -i "s/MD5: .*/MD5: $md5/" README.md
+      - name: Commit Changes
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: self
+          BRANCH: main
+          FOLDER: .
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
+          COMMIT_MESSAGE: "Update checksums for asf.sh"
