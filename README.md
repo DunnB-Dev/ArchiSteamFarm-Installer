@@ -28,3 +28,7 @@ Thank you to my friend [CyberDruga](https://github.com/kabessao/) as well for pr
 ## License
 [Apache license 2.0](https://apache.org/licenses/LICENSE-2.0)
 
+MD5: 41329d859038204c8bde4cab840e7b51
+SHA1: 21dbe3232d8209f959488e05ed4f31b56bf66fbb
+SHA256: bc6144e7b101f489f243bccff7bfa02e6fdb9a33223bfdad92be6dfba063ccb7
+SHA512: ca9e5acfb9777366fe8d16d8cb46e565eaf9e9008291d94557a32f2b7c52ec0b0fa1ba3d67a66f237a59df3368056fd4658f39a14550d026322f822e33b4be8e
