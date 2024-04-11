@@ -17,7 +17,7 @@ set -eEu
 #STARTUP=true  # Root is required for this
 #IPC=true
 
-# idk
+# idk 2
 
 # Colors
 COL_LIGHT_GREEN='\e[1;32m'
