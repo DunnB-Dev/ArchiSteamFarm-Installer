@@ -18,10 +18,10 @@ jobs:
           sha512=$(sha512sum asf.sh | awk '{print $1}')
           md5=$(md5sum asf.sh | awk '{print $1}')
           
-          echo "MD5: $md5" >> README.md
-          echo "SHA1: $sha1" >> README.md
-          echo "SHA256: $sha256" >> README.md
-          echo "SHA512: $sha512" >> README.md
+          sed -i "s/SHA1: .*/SHA1: $sha1/" README.md
+          sed -i "s/SHA256: .*/SHA256: $sha256/" README.md
+          sed -i "s/SHA512: .*/SHA512: $sha512/" README.md
+          sed -i "s/MD5: .*/MD5: $md5/" README.md
       - name: Commit Changes
         uses: s0/git-publish-subdir-action@master
         env:
