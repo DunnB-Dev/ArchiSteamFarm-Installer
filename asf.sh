@@ -111,7 +111,7 @@ os_check() {
     info_message "Checking OS..."
 
     # Check if running GNU/Linux type OS
-    case $OSTYPE in linux-gnu*)
+    case $OSTYPE in linux-gnu* | linux-musl*)
         # Check if they are using systemd init
         if [[ -d '/run/systemd/system' ]]; then
             ok_message "OS supported!"
