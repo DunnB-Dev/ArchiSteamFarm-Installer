@@ -16,10 +16,10 @@ This script can be installed with the following command:
 
 ### `curl -sSL https://raw.githubusercontent.com/MsFloofie/ArchiSteamFarm-Installer/main/asf.sh | sudo bash`
 Hash of the file:
-- `MD5: 94f207c639ac0d6d49efcec3de288b22
-- `SHA1: 5a6ee621d0166cd15e28797efce482eeb32665b7
-- `SHA256: f2d50302c341a86dc383710fb82fa49a5106118157aedbfea23aed30a6982c80
-- `SHA512: 7323ad3af7cb60b5b1a4ddf9e2538c669caa7c035875961f9c25fcfd030c12a5c56947902daf67f0afff337345abedb8c72813cbfac595cefb5650574027d0ca
+- `MD5: 7b2ca5003d90cd00ce01fe63d29007b3
+- `SHA1: a93b3c56e6e49ccd35cdee28c70545d813d60753
+- `SHA256: eb1208f46cec1b7eaad30430ff91df35acdb047d046769134d70700e00bbe5f1
+- `SHA512: 3ab5b6ee4786e442424e7ca349e5f44ac3d9cacae053c559b971bb83a5fe62769889c6ec79de2a11abb161bb30f999e412c783e6507daea1212c7ce89534f3b4
 
 ## Credit
 Huge *huge* thank you to [@JustArchi](https://github.com/JustArchi) and all the contributors at [JustArchi.net](https://github.com/JustArchiNET) for providing ArchiSteamFarm.  
@@ -28,11 +28,11 @@ Thank you to my friend [CyberDruga](https://github.com/kabessao/) as well for pr
 ## License
 [Apache license 2.0](https://apache.org/licenses/LICENSE-2.0)
 
-MD5: 94f207c639ac0d6d49efcec3de288b22
-SHA1: 5a6ee621d0166cd15e28797efce482eeb32665b7
-SHA256: f2d50302c341a86dc383710fb82fa49a5106118157aedbfea23aed30a6982c80
-SHA512: 7323ad3af7cb60b5b1a4ddf9e2538c669caa7c035875961f9c25fcfd030c12a5c56947902daf67f0afff337345abedb8c72813cbfac595cefb5650574027d0ca
-MD5: 94f207c639ac0d6d49efcec3de288b22
-SHA1: 5a6ee621d0166cd15e28797efce482eeb32665b7
-SHA256: f2d50302c341a86dc383710fb82fa49a5106118157aedbfea23aed30a6982c80
-SHA512: 7323ad3af7cb60b5b1a4ddf9e2538c669caa7c035875961f9c25fcfd030c12a5c56947902daf67f0afff337345abedb8c72813cbfac595cefb5650574027d0ca
+MD5: 7b2ca5003d90cd00ce01fe63d29007b3
+SHA1: a93b3c56e6e49ccd35cdee28c70545d813d60753
+SHA256: eb1208f46cec1b7eaad30430ff91df35acdb047d046769134d70700e00bbe5f1
+SHA512: 3ab5b6ee4786e442424e7ca349e5f44ac3d9cacae053c559b971bb83a5fe62769889c6ec79de2a11abb161bb30f999e412c783e6507daea1212c7ce89534f3b4
+MD5: 7b2ca5003d90cd00ce01fe63d29007b3
+SHA1: a93b3c56e6e49ccd35cdee28c70545d813d60753
+SHA256: eb1208f46cec1b7eaad30430ff91df35acdb047d046769134d70700e00bbe5f1
+SHA512: 3ab5b6ee4786e442424e7ca349e5f44ac3d9cacae053c559b971bb83a5fe62769889c6ec79de2a11abb161bb30f999e412c783e6507daea1212c7ce89534f3b4
